@@ -1,0 +1,8 @@
+question,answer,intent
+What is BSIT?,"BSIT stands for Bachelor of Science in Information Technology. It focuses on IT infrastructure, support, and systems.",AskCourseInfo
+What is BSCS?,"BSCS stands for Bachelor of Science in Computer Science. It focuses on programming, data structures, and algorithm design.",AskCourseInfo
+What is EMC?,"EMC stands for Entertainment and Multimedia Computing. It focuses on game development, interactive media, and digital design.",AskCourseInfo
+How much is the tuition for BSIT?,"The tuition for BSIT is around ₱60,000 per semester.",AskTuition
+How much is the tuition for BSCS?,"The tuition for BSCS is around ₱62,000 per semester.",AskTuition
+When is the application deadline?,The application deadline is usually every July for the 1st semester.,AskAdmission
+What are the requirements for admission?,"The basic requirements include Form 138, birth certificate, and a completed application form.",AskAdmission

@@ -1,11 +1,17 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-import spacy
 import openai
+import spacy
 import os
 
-# Download model at runtime if not already present
+# Load OpenAI key from environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY", "your-api-key-here")
+
+# Load dataset
+faq_df = pd.read_csv("faq_data.csv")
+
+# Download and load spaCy model if not present
 try:
     nlp = spacy.load("en_core_web_sm")
 except:
@@ -13,15 +19,7 @@ except:
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
 
-
-# Load data
-faq_df = pd.read_csv("faq_data.csv")
-nlp = spacy.load("en_core_web_sm")
-
-# Load OpenAI API key from environment variable
-openai.api_key = os.getenv("OPENAI_API_KEY", "your-api-key-here")
-
-# Train intent classifier
+# Intent classification
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(faq_df["question"])
 y = faq_df["intent"]

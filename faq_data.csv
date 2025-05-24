@@ -6,35 +6,28 @@ How much is the tuition for BSIT?,"The tuition for BSIT is around ₱60,000 per 
 How much is the tuition for BSCS?,"The tuition for BSCS is around ₱62,000 per semester.",AskTuition
 When is the application deadline?,The application deadline is usually every July for the 1st semester.,AskAdmission
 What are the requirements for admission?,"The basic requirements include Form 138, birth certificate, and a completed application form.",AskAdmission
-What is BSIT?	BSIT stands for Bachelor of Science in Information Technology. It focuses on IT infrastructure, support, and systems.	AskCourseInfo
-What is BSCS?	BSCS stands for Bachelor of Science in Computer Science. It focuses on programming, data structures, and algorithm design.	AskCourseInfo
-What is EMC?	EMC stands for Entertainment and Multimedia Computing. It focuses on game development, interactive media, and digital design.	AskCourseInfo
-How much is the tuition for BSIT?	The tuition for BSIT is around â‚±60,000 per semester.	AskTuition
-How much is the tuition for BSCS?	The tuition for BSCS is around â‚±62,000 per semester.	AskTuition
-When is the application deadline?	The application deadline is usually every July for the 1st semester.	AskAdmission
-What are the requirements for admission?	The basic requirements include Form 138, birth certificate, and a completed application form.	AskAdmission
-Whatâ€™s the difference between IT and CS?	IT focuses on practical tech like networks and support, while CS dives deep into programming and computing theory.	ask_program_difference
-Tell me about EMC.	EMC combines computing and multimedia to develop interactive applications and games.	ask_program_difference
-Do IT and CS share subjects?	Yes, all three programs share foundational courses like programming and IT basics, but diverge into specializations.	ask_subjects_shared
-Which course is better for me?	It depends: IT for practical systems work, CS for coding and theory, EMC for creative media and games.	ask_best_program
-What jobs can I get with an IT degree?	IT graduates can work as support specialists, network admins, system analysts, or project managers.	ask_it_career_paths
-What jobs can I get with a CS degree?	CS graduates become developers, data scientists, AI engineers, or software architects.	ask_cs_career_paths
-What jobs can I get with an EMC degree?	EMC graduates often become game developers, animators, AR/VR specialists, or multimedia designers.	ask_emc_career_paths
-How long is the CS program?	CS, IT, and EMC programs typically take 4 years including an internship or OJT.	ask_course_duration
-Can you give examples of subjects in IT, CS, and EMC?	IT: Networking, Security. CS: Algorithms, AI. EMC: Game Design, Multimedia Systems.	ask_subject_examples
-Are these programs accredited?	Yes, IT, CS, and EMC are CHED-recognized and may also be accredited by PAASCU or AACCUP.	ask_program_accreditation
-When does FIRT ASIA International School start classes?	Classes at FIRT ASIA International School start on 26 August 2025.	ask_enrollment_fais
-When does FCS start classes?	Classes at FCS start on 14 July 2025.	ask_enrollment_fcs
-When does FSH start classes?	Classes at FSH start on 16 July 2025.	ask_enrollment_fsh
-When does TS start classes?	Classes at TS start on 16 July 2025.	ask_enrollment_ts
-When is the orientation for FCS?	The orientation for FCS is on 12 July 2025.	ask_orientation_fcs
-When is the orientation for FSH?	The orientation for FSH is on 11 July 2025.	ask_orientation_fsh
-When is the orientation for TS?	The orientation for TS is on 15 July 2025.	ask_orientation_ts
-When is early enrollment for FCS?	Early enrollment for FCS is from 14 April to 17 May.	ask_early_enrollment_fcs
-When is regular enrollment for FCS?	Regular enrollment for FCS is from 19 May to 5 July.	ask_regular_enrollment_fcs
-When is early enrollment for FSH Grade 11?	Early enrollment for FSH Grade 11 is from 5 to 31 May.	ask_early_enrollment_fsh_g11
-When is regular enrollment for FSH Grade 12?	Regular enrollment for FSH Grade 12 is from 16 June to 5 July.	ask_regular_enrollment_fsh_g12
-When is freshmen and transferees enrollment for TS?	Enrollment for TS freshmen and transferees is from 5 to 31 May.	ask_enrollment_ts_freshmen
-When is enrollment for TS old students?	Enrollment for TS old students is from 16 June to 5 July (by school: SOH, SOM, SOT).	ask_enrollment_ts_oldstudents
-When is open enrollment for all units?	Open enrollment is from 2 June to mid-July: 14 July (FCS), 16 July (FSH and TS).	ask_open_enrollment
-When is late enrollment for all units?	Late enrollment is from 15 to 30 July 2025, with minor date differences across FCS, FSH, and TS.	ask_late_enrollment
+What’s the difference between IT and CS?,"IT focuses on practical tech like networks and support, while CS dives deep into programming and computing theory.",ask_program_difference
+Tell me about EMC.,EMC combines computing and multimedia to develop interactive applications and games.,ask_program_difference
+Do IT and CS share subjects?,"Yes, all three programs share foundational courses like programming and IT basics, but diverge into specializations.",ask_subjects_shared
+Which course is better for me?,"It depends: IT for practical systems work, CS for coding and theory, EMC for creative media and games.",ask_best_program
+What jobs can I get with an IT degree?,"IT graduates can work as support specialists, network admins, system analysts, or project managers.",ask_it_career_paths
+What jobs can I get with a CS degree?,"CS graduates become developers, data scientists, AI engineers, or software architects.",ask_cs_career_paths
+What jobs can I get with an EMC degree?,"EMC graduates often become game developers, animators, AR/VR specialists, or multimedia designers.",ask_emc_career_paths
+How long is the CS program?,"CS, IT, and EMC programs typically take 4 years including an internship or OJT.",ask_course_duration
+"Can you give examples of subjects in IT, CS, and EMC?","IT: Networking, Security. CS: Algorithms, AI. EMC: Game Design, Multimedia Systems.",ask_subject_examples
+Are these programs accredited?,"Yes, IT, CS, and EMC are CHED-recognized and may also be accredited by PAASCU or AACCUP.",ask_program_accreditation
+When does FIRT ASIA International School start classes?,Classes at FIRT ASIA International School start on 26 August 2025.,ask_enrollment_fais
+When does FCS start classes?,Classes at FCS start on 14 July 2025.,ask_enrollment_fcs
+When does FSH start classes?,Classes at FSH start on 16 July 2025.,ask_enrollment_fsh
+When does TS start classes?,Classes at TS start on 16 July 2025.,ask_enrollment_ts
+When is the orientation for FCS?,The orientation for FCS is on 12 July 2025.,ask_orientation_fcs
+When is the orientation for FSH?,The orientation for FSH is on 11 July 2025.,ask_orientation_fsh
+When is the orientation for TS?,The orientation for TS is on 15 July 2025.,ask_orientation_ts
+When is early enrollment for FCS?,Early enrollment for FCS is from 14 April to 17 May.,ask_early_enrollment_fcs
+When is regular enrollment for FCS?,Regular enrollment for FCS is from 19 May to 5 July.,ask_regular_enrollment_fcs
+When is early enrollment for FSH Grade 11?,Early enrollment for FSH Grade 11 is from 5 to 31 May.,ask_early_enrollment_fsh_g11
+When is regular enrollment for FSH Grade 12?,Regular enrollment for FSH Grade 12 is from 16 June to 5 July.,ask_regular_enrollment_fsh_g12
+When is freshmen and transferees enrollment for TS?,Enrollment for TS freshmen and transferees is from 5 to 31 May.,ask_enrollment_ts_freshmen
+When is enrollment for TS old students?,"Enrollment for TS old students is from 16 June to 5 July (by school: SOH, SOM, SOT).",ask_enrollment_ts_oldstudents
+When is open enrollment for all units?,"Open enrollment is from 2 June to mid-July: 14 July (FCS), 16 July (FSH and TS).",ask_open_enrollment
+When is late enrollment for all units?,"Late enrollment is from 15 to 30 July 2025, with minor date differences across FCS, FSH, and TS.",ask_late_enrollment

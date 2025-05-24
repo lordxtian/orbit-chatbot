@@ -5,21 +5,16 @@ import openai
 import spacy
 import os
 
-# Load OpenAI key from environment variable
+# Load OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY", "your-api-key-here")
 
-# Load dataset
+# Load FAQ dataset
 faq_df = pd.read_csv("faq_data.csv")
 
-# Download and load spaCy model if not present
-try:
-    nlp = spacy.load("en_core_web_sm")
-except:
-    from spacy.cli import download
-    download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
+# Use spaCy blank English model (no download needed)
+nlp = spacy.blank("en")
 
-# Intent classification
+# Train a simple classifier for intent detection
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(faq_df["question"])
 y = faq_df["intent"]
@@ -43,9 +38,11 @@ def get_fallback_gpt(prompt):
     try:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
-            messages=[{"role": "system", "content": "You are an educational chatbot that answers questions about IT, CS, and EMC programs."},
-                      {"role": "user", "content": prompt}]
+            messages=[
+                {"role": "system", "content": "You are an educational assistant helping students learn about IT, CS, and EMC programs."},
+                {"role": "user", "content": prompt}
+            ]
         )
         return response['choices'][0]['message']['content'].strip()
     except Exception:
-        return "I'm sorry, I couldn't find an answer right now."
+        return "Sorry, I couldn't find an answer at the moment."

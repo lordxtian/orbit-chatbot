@@ -5,6 +5,15 @@ import spacy
 import openai
 import os
 
+# Download model at runtime if not already present
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
+
 # Load data
 faq_df = pd.read_csv("faq_data.csv")
 nlp = spacy.load("en_core_web_sm")

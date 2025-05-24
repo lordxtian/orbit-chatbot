@@ -6,7 +6,7 @@ import spacy
 import os
 
 # Load OpenAI API key
-openai.api_key = os.getenv("OPENAI_API_KEY", "your-api-key-here")
+openai.api_key = os.getenv("OPENAI_API_KEY", "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")
 
 # Load FAQ dataset
 faq_df = pd.read_csv("faq_data.csv")

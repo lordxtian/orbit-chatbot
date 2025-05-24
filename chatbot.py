@@ -12,12 +12,20 @@ openai.api_key = os.getenv("OPENAI_API_KEY", "your-api-key-here")
 faq_df = pd.read_csv("faq_data.csv")
 
 # Download and load spaCy model if not present
-try:
-    nlp = spacy.load("en_core_web_sm")
-except:
-    from spacy.cli import download
+from pathlib import Path
+from spacy.cli import download
+from spacy.util import load_model_from_path
+
+# Define local model path
+MODEL_DIR = Path("en_core_web_sm")
+
+# Load locally if available, otherwise download
+if MODEL_DIR.exists():
+    nlp = load_model_from_path(MODEL_DIR)
+else:
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
+
 
 # Intent classification
 vectorizer = TfidfVectorizer()
